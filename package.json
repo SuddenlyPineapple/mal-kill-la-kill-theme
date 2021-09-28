@@ -1,0 +1,25 @@
+{
+    "name": "mal-kill-la-kill-theme-css-parser",
+    "version": "1.0.0",
+    "description": "Scraps otomoto.pl cars from listing",
+    "main": "./src/index.js",
+    "type": "module",
+    "scripts": {
+      "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js"
+    },
+    "keywords": [
+      "scraping",
+      "my-anime-list"
+    ],
+    "author": "Wojciech Kasperski",
+    "license": "MIT",
+    "nodemonConfig": {
+      "ignore": [
+        "*.json"
+      ]
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+  }
