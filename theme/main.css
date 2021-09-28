@@ -6,19 +6,21 @@
 
 /* ------------------------------------------------------------ */ /* Cover art database import */
 
-@import "https://dl.dropbox.com/s/0jzovfrnnymoego/animecovers.css";
+/* @import "https://dl.dropbox.com/s/0jzovfrnnymoego/animecovers.css"; */
 
 /* ------------------------------------------------------------ */ /* Cover art setup */
 
 :hover + .hide {
-    width: 12vw; height:17vw;
-    bottom:30vw; right:8vw;
-    
+    width: 12vw;
+    height: 17vw;
+    bottom: 30vw;
+    right: 8vw;
+
     background-size: cover;
     background-color: white;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    
+
     border-width: 1px;
     border-style: solid;
     border-color: black;
@@ -33,7 +35,10 @@
 
 /* ------------------------------------------------------------ */ /* Color scheme and setup */
 
-#grand_totals, .category_totals, [class^=status_], [style^="float: right"] {
+#grand_totals,
+.category_totals,
+[class^="status_"],
+[style^="float: right"] {
     display: none;
 }
 
@@ -42,17 +47,18 @@
     color: #555555;
 }
 
-[href]:hover, [id^="scor"]:hover {
-    color: #CC4444;
+[href]:hover,
+[id^="scor"]:hover {
+    color: #cc4444;
 }
 
 tr:hover [class^="td"] {
-    background-color: #FFCCCC;
+    background-color: #ffcccc;
 }
 
 #list_surround {
     position: relative;
-    background-image: url('http://i.imgur.com/HYc3FFG.jpg');
+    background-image: url("http://i.imgur.com/HYc3FFG.jpg");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 38% auto;
@@ -69,7 +75,7 @@ tr:hover [class^="td"] {
     left: 5%;
 }
 
-[class^=header_]  {
+[class^="header_"] {
     margin-right: 100%;
     margin-top: 10px;
     white-space: nowrap;
@@ -86,14 +92,15 @@ tr:hover [class^="td"] {
 }
 
 .td1 {
-    background-color: #FFEEEE;
+    background-color: #ffeeee;
 }
 
 .td2 {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
 }
 
-.td1, .td2 {
+.td1,
+.td2 {
     padding: 5px 8px 5px;
     border-right: 1px solid white;
     border-left: 1px solid white;
@@ -173,7 +180,7 @@ td[align="left"] {
 #mal_cs_powered a {
     background-color: #555555 !important;
     display: block;
-    font: 18px/17px 'Arial', sans-serif !important;
+    font: 18px/17px "Arial", sans-serif !important;
     font-weight: bold;
     margin: 4px 0 0;
     padding: 8px 8px 8px !important;
@@ -200,7 +207,7 @@ td[align="left"] {
 #mal_cs_otherlinks strong {
     color: #555555;
     display: block;
-    font: bold 13px/17px 'Arial',sans-serif !important;
+    font: bold 13px/17px "Arial", sans-serif !important;
     padding: 0 4px 4px;
 }
 
@@ -208,7 +215,7 @@ td[align="left"] {
     background: none transparent !important;
     color: #555555;
     display: inline;
-    font: bold 13px/17px 'Arial',sans-serif !important;
+    font: bold 13px/17px "Arial", sans-serif !important;
     margin: 0;
     padding: 0;
 }
@@ -224,7 +231,6 @@ td[align="left"] {
 #mal_cs_powered:hover a {
     opacity: 1;
 }
-
 
 #mal_cs_powered #search {
     padding: 8px 2px 0px 0px !important;
@@ -287,28 +293,34 @@ td[align="left"] {
     display: none !important;
 }
 
-#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links {
+#mal_cs_pic,
+#mal_cs_listinfo,
+#mal_cs_links {
     border-right: 0 none !important;
 }
 
 /* header fix - completed, ptw, watching, etc */
 
-  #list_surround>[align=center] {
-  width: calc(55% + 5px);
-  margin-right: 100%;
-  }
-  #list_surround>[align="center"]>*>* {
-  display: flex;
-  justify-content: space-between;
-  }
-  [class^="status_"] {
-  flex: 0 1 100%;
-  margin: 0 2px 0 0;
-  display: block;
-  }
-  [class^="status_"] a {
-  display: block !important;
-  background: #FFEEEE;
-  padding: 10px;
-  }
-  .status_selected a { background: #FCC }
+#list_surround > [align="center"] {
+    width: calc(55% + 5px);
+    margin-right: 100%;
+}
+#list_surround > [align="center"] > * > * {
+    display: flex;
+    justify-content: space-between;
+}
+[class^="status_"] {
+    flex: 0 1 100%;
+    margin: 0 2px 0 0;
+    display: block;
+}
+[class^="status_"] a {
+    display: block !important;
+    background: #ffeeee;
+    padding: 10px;
+}
+.status_selected a {
+    background: #fcc;
+}
+
+/* anime covers should be pasted below */
