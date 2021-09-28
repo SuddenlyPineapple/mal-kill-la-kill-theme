@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "parse:dev": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
-    "parse": "node ./src/index.js  > output.log"
+    "parse": "node ./src/index.js",
+    "parse:log": "node ./src/index.js  > output.log"
   },
   "keywords": [
     "scraping",
@@ -24,6 +25,7 @@
     "chalk": "^4.1.2",
     "cheerio": "^1.0.0-rc.10",
     "csv-parser": "^3.0.0",
+    "merge-files": "^0.1.2",
     "nodemon": "^2.0.13"
   },
   "devDependencies": {

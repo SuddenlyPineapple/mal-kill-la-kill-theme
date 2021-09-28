@@ -1,3 +1,3 @@
 export default {
-    filename: "mal.csv",
+    filename: "./data/mal.csv",
 };
