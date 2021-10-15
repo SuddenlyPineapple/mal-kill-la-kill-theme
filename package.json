@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "parse:dev": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
-    "parse": "node ./src/index.js",
-    "parse:log": "node ./src/index.js  > output.log"
+    "parse": "node ./src/index.js && npm run merge",
+    "parse:log": "node ./src/index.js  > output.log && npm run merge",
+    "merge": "cat theme/main.css mal-animes.css > output.css"
   },
   "keywords": [
     "scraping",
