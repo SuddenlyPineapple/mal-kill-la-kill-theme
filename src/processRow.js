@@ -23,6 +23,8 @@ const processRow = (row) => {
                     ? log(err, "error")
                     : log(`Sucess: ${cssString}`, "color:green");
             });
+        }).catch(err => {
+            log("Error: " + err, "error")
         });
 };
 
